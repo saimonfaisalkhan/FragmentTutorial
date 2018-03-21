@@ -41,7 +41,7 @@ FragmentManager manager;
         }
        else if(fr3.getId()==v.getId())
         {
-
+            manager.beginTransaction().replace(R.id.displaylayout,new Fragment2()).commit();
         }
     }
 
